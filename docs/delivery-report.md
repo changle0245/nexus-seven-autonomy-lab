@@ -64,6 +64,7 @@
 8. 首轮 Playwright 两项失败来自测试数据被自动编码和宽泛定位，改用原始字节与精确匹配后全绿。
 9. Dependabot 首次运行尝试升级到 TypeScript 7，CI 正确阻断了与 `typescript-eslint` 不兼容的变更；为 TypeScript 7 添加临时忽略范围，保留其他依赖自动更新。
 10. GitHub Actions v4 在新 runner 上触发 Node.js 20 弃用警告；三项 v7 升级分别通过 PR 质量门后被统一吸收到主工作流。
+11. 第二轮 Dependabot 将 ESLint 提升到 10 并暴露 Next.js 规则插件兼容故障；CI 再次正确阻断，并为 ESLint 10 与超出目标运行时的 Node 类型主版本增加临时升级边界。
 
 ## 使用的技能与知识
 
