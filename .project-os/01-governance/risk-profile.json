@@ -1,0 +1,15 @@
+{
+  "tier": "STANDARD",
+  "reasons": [
+    "The experiment creates a publicly accessible cloud deployment and a new source repository.",
+    "The application simulates operational decisions but uses synthetic data and cannot affect real infrastructure."
+  ],
+  "data_sensitivity": "PUBLIC_SYNTHETIC_ONLY",
+  "irreversible_actions": [],
+  "human_review_required": true,
+  "domain_accountability": null,
+  "required_reviews": [
+    "Owner review is required before any claim of production readiness or reuse with real data.",
+    "A future real deployment would require security, privacy, data retention, and domain-specific review."
+  ]
+}

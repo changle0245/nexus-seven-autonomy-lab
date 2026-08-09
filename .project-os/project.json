@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "project_id": "PRJ-D33FF60D362C",
+  "parent_project_id": null,
+  "name": "NEXUS-7 Autonomy Lab",
+  "purpose_type": "research",
+  "domain_type": "software",
+  "owner": "changle0245",
+  "decision_authority": "changle0245",
+  "policy_version": "0.2.0-prototype",
+  "created_at": "2026-08-09T08:41:55+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "nexus-seven-autonomy-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Level 7 autonomous full-stack delivery experiment: a resilient multi-tenant operations command center.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run build",
+    "check:full": "npm run check && npm run test:e2e"
+  },
+  "dependencies": {
+    "lucide-react": "1.30.0",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.3.0",
+    "typescript": "6.0.3",
+    "vitest": "4.1.10"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "routes": [
+    {
+      "id": "DO_NOTHING",
+      "status": "REJECTED_PROPOSAL",
+      "note": "Would not test the newly authorized GitHub and Vercel delivery path."
+    },
+    {
+      "id": "USE",
+      "status": "REJECTED_PROPOSAL",
+      "note": "An existing demo cannot provide evidence about Codex creating and validating a new project end to end."
+    },
+    {
+      "id": "BUY",
+      "status": "REJECTED_PROPOSAL",
+      "note": "Purchasing a template would weaken the test and is outside the no-purchase constraint."
+    },
+    {
+      "id": "CONFIGURE",
+      "status": "REJECTED_PROPOSAL",
+      "note": "Configuration alone cannot demonstrate implementation breadth."
+    },
+    {
+      "id": "INTEGRATE",
+      "status": "SUPPORTING_PROPOSAL",
+      "note": "GitHub, Vercel, Next.js, and automated verification are integrated as the delivery substrate."
+    },
+    {
+      "id": "BUILD",
+      "status": "RECOMMENDED_PROPOSAL",
+      "note": "A fresh build is necessary because the experiment measures autonomous creation, not only configuration."
+    }
+  ],
+  "recommendation": "BUILD a disposable, synthetic-data NEXUS-7 experiment and INTEGRATE the existing GitHub and Vercel connections.",
+  "decision_status": "PROPOSAL",
+  "decision_id": null
+}

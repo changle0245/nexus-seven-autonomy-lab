@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "policy_version": "0.2.0-prototype",
+  "updated_at": "2026-08-09T08:41:55+00:00",
+  "current_stage": "intake",
+  "concept_status": "DRAFT",
+  "evidence_status": "NOT_TESTED",
+  "readiness_status": "DRAFT",
+  "selected_package_profile": null,
+  "gates": {
+    "0": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "1": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "2": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "3": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "4": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "5": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "6": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    },
+    "7": {
+      "status": "NOT_TESTED",
+      "decision_id": null
+    }
+  },
+  "implementation_approval": {
+    "status": "NOT_APPROVED",
+    "decision_id": null
+  },
+  "allowed_actions": [
+    "guided discovery",
+    "project boundary review"
+  ],
+  "forbidden_actions": [
+    "claim validation",
+    "commit production architecture",
+    "begin production-intent implementation"
+  ],
+  "next_action": "Complete project boundary review and the concept baseline."
+}

@@ -1,0 +1,36 @@
+{
+  "status": "DRAFT",
+  "form": "A deployed full-stack web prototype, new GitHub repository, CI workflow, automated test suite, and final autonomy report.",
+  "acceptance_owner": "changle0245",
+  "definition_of_done": [
+    "Production build completes with no type or lint errors",
+    "P0 domain tests and API contract tests pass",
+    "Public production URL loads without authentication",
+    "Dashboard, incident, automation, deployment, cost, audit, and settings experiences are navigable",
+    "At least five meaningful state-changing flows work and persist locally",
+    "Chinese and English, light and dark, desktop and mobile states are verified",
+    "Keyboard command palette, focus visibility, reduced motion, and core accessibility semantics are verified",
+    "Health and metrics endpoints succeed and invalid API input returns a controlled error",
+    "No severe browser console errors occur during the critical journey",
+    "A GitHub repository contains source, CI, README, architecture, test, rollback, and security notes",
+    "Vercel deployment status is successful and post-deploy logs are inspected",
+    "Final report distinguishes demonstrated capability from unvalidated production claims"
+  ],
+  "operations_owner": "Codex during the disposable experiment; no ongoing production operator is assigned.",
+  "included": [
+    "Source implementation",
+    "Synthetic fixtures",
+    "Local and production verification",
+    "GitHub publication",
+    "Vercel deployment",
+    "Rollback-ready deployment history",
+    "Capability and labor-savings report"
+  ],
+  "excluded": [
+    "Real identities and production authentication",
+    "Paid services and purchases",
+    "Production database and irreversible migrations",
+    "Real third-party messaging or financial transactions",
+    "Regulatory or security certification"
+  ]
+}

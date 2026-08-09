@@ -1,0 +1,7 @@
+{
+  "policy_version": "0.2.0-prototype",
+  "schema_version": 2,
+  "pinned_at": "2026-08-09T08:41:55+00:00",
+  "upgrade_mode": "EXPLICIT_ONLY",
+  "rollback_required": true
+}

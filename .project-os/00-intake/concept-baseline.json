@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "version": "0.1-draft",
+  "status": "DRAFT",
+  "purpose": {
+    "desired_change": "Demonstrate Codex's maximum end-to-end website delivery capability through a brand-new, high-complexity, publicly testable full-stack prototype, including implementation, verification, GitHub publication, Vercel deployment, and an evidence-backed report.",
+    "why_now": "The owner has completed durable GitHub and Vercel authorization and wants a decisive Level 7 test beyond the previous Level 6 prototype."
+  },
+  "actors": {
+    "primary_user": "changle0245",
+    "payer": "No paid purchase is authorized or required",
+    "beneficiary": "changle0245 as evaluator of Codex autonomy",
+    "acceptance_owner": "changle0245"
+  },
+  "problem": {
+    "situation": "Previous autonomous website tests demonstrated progressively stronger single-project delivery, but did not jointly exercise a broad SaaS interaction model, full-stack routes, failure states, accessibility, responsive behavior, persistence, CI, cloud deployment, and post-deploy verification.",
+    "observed_problem": "A visually impressive page alone cannot prove that Codex can handle the engineering and operational edge cases encountered across future website projects.",
+    "current_alternative": "The prior Forge Level 6 prototype is the baseline and must not be reused or overwritten."
+  },
+  "solution": {
+    "candidate_direction": "PROPOSAL: NEXUS-7, a no-login multi-tenant autonomous operations command center with incident response, workflow orchestration, deployment governance, cost intelligence, audit trails, deterministic AI assistance, resilient local state, API routes, and exhaustive quality gates."
+  },
+  "scope": {
+    "in_scope": [
+      "Brand-new Next.js and TypeScript codebase with no copied Level 6 product code",
+      "Publicly accessible experience with no authentication barrier",
+      "Multi-workspace navigation, role simulation, dashboard, incidents, automations, deployments, costs, audit, settings, and command palette",
+      "Deterministic AI copilot simulation that exercises structured actions without requiring an external API key",
+      "Responsive desktop, tablet, and mobile layouts; light and dark themes; Chinese and English UI",
+      "Synthetic live telemetry, optimistic state transitions, undo, local persistence, import and export, empty/loading/error/offline states",
+      "Health, metrics, incidents, and copilot API routes with validation and failure behavior",
+      "Automated lint, type, unit, build, browser, accessibility, console, and production smoke tests",
+      "New GitHub repository, CI configuration, Vercel deployment, and post-deploy inspection"
+    ],
+    "non_goals": [
+      "Real customer, employee, financial, medical, or regulated data",
+      "Real payment processing, email delivery, destructive infrastructure operations, or production credentials",
+      "Claims of market validation, regulatory certification, production readiness, or cross-industry completeness",
+      "Purchasing a domain or paid external service",
+      "Replacing or modifying any prior Level 1-6 project"
+    ]
+  },
+  "success": {
+    "user_outcome": "The owner receives a live URL and source repository for a materially more complex project, plus a test matrix proving the important flows and a truthful report of remaining boundaries.",
+    "failure_or_stop_condition": "Stop or report conditional status if the project cannot build, deploy, load without authentication, pass its P0 interaction checks, or if completion would require payment, credentials, destructive production changes, or unapproved sensitive-data access."
+  },
+  "constraints": {
+    "decision_authority": "changle0245",
+    "delivery_boundary": "Disposable Level 7 validation prototype using synthetic data and generated cloud URLs; public deployment is authorized as part of the requested test, but production-data integration is not."
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "type": "FACT",
+      "text": "GitHub App access is configured for all current and future repositories owned by changle0245."
+    },
+    {
+      "id": "CLM-002",
+      "type": "FACT",
+      "text": "The connected Vercel team can be queried and used by Codex."
+    },
+    {
+      "id": "CLM-003",
+      "type": "PROPOSAL",
+      "text": "NEXUS-7 is the appropriate Level 7 experiment design."
+    },
+    {
+      "id": "CLM-004",
+      "type": "CONSTRAINT",
+      "text": "All product data is synthetic and no external paid dependency is required."
+    }
+  ],
+  "critical_open_questions": [],
+  "accepted_assumptions": [
+    "The owner delegated reversible product and technical design choices to Codex for this test.",
+    "A generated Vercel URL is acceptable; no custom domain purchase is needed.",
+    "A deterministic local AI simulation is preferable to blocking on a new model API credential.",
+    "The prototype should be immediately explorable without login."
+  ],
+  "confirmation": {
+    "status": "DRAFT",
+    "owner": null,
+    "confirmed_at": null
+  }
+}

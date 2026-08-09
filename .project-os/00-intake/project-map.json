@@ -1,0 +1,13 @@
+{
+  "boundary_status": "CONFIRMED",
+  "candidates": [
+    {
+      "id": "CAND-001",
+      "name": "NEXUS-7 Autonomy Lab",
+      "relationship": "standalone_experiment",
+      "status": "PRIMARY",
+      "source": "Initial user idea"
+    }
+  ],
+  "unresolved_overlaps": []
+}

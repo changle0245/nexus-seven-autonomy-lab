@@ -1,0 +1,25 @@
+{
+  "decision_owner": "changle0245",
+  "ai_may": [
+    "read project materials",
+    "research public sources",
+    "create reversible drafts",
+    "run local tests",
+    "create a new source repository for this experiment",
+    "deploy this synthetic-data prototype to a generated public Vercel URL",
+    "run read-only post-deploy inspections and browser tests"
+  ],
+  "approval_required": [
+    "spend money",
+    "send external messages",
+    "use production credentials",
+    "accept legal terms",
+    "deploy any system containing real or sensitive production data",
+    "delete material data"
+  ],
+  "ai_must_not": [
+    "fabricate evidence",
+    "promote a proposal to a decision",
+    "change experiment thresholds after exposure"
+  ]
+}
