@@ -63,6 +63,7 @@
 7. 首次 Vercel 构建提示 Node 主版本未来会自动漂移，从 `>=22` 收紧到 `22.x` 并重新部署。
 8. 首轮 Playwright 两项失败来自测试数据被自动编码和宽泛定位，改用原始字节与精确匹配后全绿。
 9. Dependabot 首次运行尝试升级到 TypeScript 7，CI 正确阻断了与 `typescript-eslint` 不兼容的变更；为 TypeScript 7 添加临时忽略范围，保留其他依赖自动更新。
+10. GitHub Actions v4 在新 runner 上触发 Node.js 20 弃用警告；三项 v7 升级分别通过 PR 质量门后被统一吸收到主工作流。
 
 ## 使用的技能与知识
 
