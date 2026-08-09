@@ -10,6 +10,12 @@ updates:
         dependency-type: production
       development-dependencies:
         dependency-type: development
+    ignore:
+      # TypeScript 7 currently breaks the typescript-eslint toolchain. The CI
+      # quality gate keeps the project on the latest supported TypeScript 6.
+      - dependency-name: typescript
+        versions:
+          - ">=7.0.0"
   - package-ecosystem: github-actions
     directory: /
     schedule:
