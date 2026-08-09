@@ -42,6 +42,7 @@
 | Next.js production build | 通过；7 个静态路由、4 个动态 API |
 | Playwright 本地生产模式 | 6/6 通过 |
 | Playwright Vercel 公网复跑 | 6/6 通过 |
+| GitHub Actions 主分支质量门 | 通过 |
 | npm audit | 0 个 info/low/moderate/high/critical 漏洞 |
 | 公网 API health | HTTP 200，带 request ID 与 synthetic 标记 |
 | 正式 CSP | 无 `unsafe-eval` |
@@ -61,6 +62,7 @@
 6. 窄屏 NEXUS AI 与工作区按钮缺少完整可访问名称，补充 ARIA 标签。
 7. 首次 Vercel 构建提示 Node 主版本未来会自动漂移，从 `>=22` 收紧到 `22.x` 并重新部署。
 8. 首轮 Playwright 两项失败来自测试数据被自动编码和宽泛定位，改用原始字节与精确匹配后全绿。
+9. Dependabot 首次运行尝试升级到 TypeScript 7，CI 正确阻断了与 `typescript-eslint` 不兼容的变更；为 TypeScript 7 添加临时忽略范围，保留其他依赖自动更新。
 
 ## 使用的技能与知识
 
